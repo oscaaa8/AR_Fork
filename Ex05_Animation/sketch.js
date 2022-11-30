@@ -39,7 +39,7 @@ function setup() {
 
   littleCube3 = new Box({
     x:-0.5, y:0.25, z:0.5,
-    red:0, green:0, blue:255,
+    red:200, green:0, blue:25,
     width:0.5, height:0.5, depth:0.5,
     asset:'stonebrick'
   });
@@ -47,16 +47,16 @@ function setup() {
 
   littleCube4 = new Box({
     x:0.5, y:0.25, z:0.5,
-    red:128, green:128, blue:128,
+    red:20, green:228, blue:50,
     width:0.5, height:0.5, depth:0.5,
     asset:'stonebrick'
   });
   marker.addChild( littleCube4 );
 
   littleCube5 = new Box({
-    x:0, y:1, z:0,
-    red:255, green:128, blue:0,
-    width:0.5, height:0.5, depth:0.5,
+    x:0.5, y:1, z:1,
+    red:255, green:20, blue:207,
+    width:0.8, height:0.8, depth:1.1,
     asset:'stonebrick'
   });
   marker.addChild( littleCube5 );
@@ -66,7 +66,7 @@ function setup() {
 function draw() {
   // spin the top cube
   littleCube5.spinX(1);
-  littleCube5.spinY(1);
+  littleCube5.spinY(5);
   littleCube5.spinZ(1);
 
   // move the other cubes around a bit
