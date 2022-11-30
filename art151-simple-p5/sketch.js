@@ -48,7 +48,8 @@ function draw() {
     // get the position of this marker
     var hiroPosition = markerHiro.getScreenPosition();
  
-    ellipse( hiroPosition.x, hiroPosition.y, 50, 50 );
+    fill('blue')
+    ellipse( hiroPosition.x, hiroPosition.y, 35, 35 );
   
   }
 
